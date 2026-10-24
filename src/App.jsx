@@ -71,7 +71,7 @@ function App() {
     setMessages(m => [...m, {role:"user",text:userText}]);
     setPrompt(""); setAiBusy(true);
     try {
-      const response = await fetch("http://localhost:8787/api/assistant", {
+      const response = await fetch("/api/assistant",{
         method:"POST", headers:{"Content-Type":"application/json"},
         body:JSON.stringify({message:userText, history:messages.slice(-8)})
       });
