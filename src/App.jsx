@@ -228,6 +228,8 @@ function App() {
   );
 }
 
+export default App;
+
 function SmartphoneIcon(){return <span style={{fontSize:13,lineHeight:1}}>▯</span>;}
 function Stat({icon:Icon,label,value,note}) {return <div className="stat-card"><div className="stat-top"><span className="stat-icon"><Icon size={17}/></span><ArrowUpRight size={15} className="stat-arrow"/></div><div className="stat-value">{value}</div><strong>{label}</strong><p>{note}</p></div>;}
 function PageIntro({eyebrow,title,desc,action}) {return <section className="page-intro"><div><div className="eyebrow"><span className="eyebrow-line"/>{eyebrow}</div><h1>{title}</h1><p>{desc}</p></div>{action&&<div className="intro-action">{action}</div>}</section>;}
