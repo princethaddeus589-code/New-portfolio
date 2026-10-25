@@ -43,7 +43,7 @@ function App() {
   const [mobileNav, setMobileNav] = useState(false);
   const [editorTemplate, setEditorTemplate] = useState(initialTemplates[0]);
   const [site, setSite] = useState({
-    name: "Alex Morgan", role: "Designer & creative developer",
+    name: "prince thaddeus", role: "Designer & creative developer",
     headline: "Ideas into experiences.", intro: "I create thoughtful digital experiences that bring ambitious ideas to life.",
     about: "I’m a multidisciplinary creative who enjoys turning complex problems into clear, useful and beautiful experiences.",
     email: "hello@example.com", accent: "#b6d63f", background: "#f7f7f3",
