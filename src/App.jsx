@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from "react";
 import {
+import Auth from "./Auth";
   LayoutDashboard, PanelsTopLeft, Sparkles, UserRound, Crown, Settings,
   Search, Bell, Plus, ArrowUpRight, ArrowRight, WandSparkles, Globe2,
   Eye, MoreHorizontal, Check, Zap, MessageCircle, Palette, Code2,
